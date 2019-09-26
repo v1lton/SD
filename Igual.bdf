@@ -21,22 +21,6 @@ applicable agreement for further details.
 (header "graphic" (version "1.4"))
 (pin
 	(input)
-	(rect 320 304 488 320)
-	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
-	(text "pin_name2" (rect 5 0 59 10)(font "Arial" ))
-	(pt 168 8)
-	(drawing
-		(line (pt 84 12)(pt 109 12))
-		(line (pt 84 4)(pt 109 4))
-		(line (pt 113 8)(pt 168 8))
-		(line (pt 84 12)(pt 84 4))
-		(line (pt 109 4)(pt 113 8))
-		(line (pt 109 12)(pt 113 8))
-	)
-	(text "VCC" (rect 128 7 149 16)(font "Arial" (font_size 6)))
-)
-(pin
-	(input)
 	(rect 320 240 488 256)
 	(text "INPUT" (rect 125 0 154 9)(font "Arial" (font_size 6)))
 	(text "A[0..3]" (rect 5 0 35 10)(font "Arial" ))
@@ -91,8 +75,8 @@ applicable agreement for further details.
 	(port
 		(pt 64 0)
 		(input)
-		(text "IN1" (rect 2 7 24 18)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 61 2 72 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN1" (rect 2 7 23 18)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 61 2 72 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 64 0)(pt 64 18))
 	)
 	(port
@@ -112,8 +96,8 @@ applicable agreement for further details.
 	(port
 		(pt 16 0)
 		(input)
-		(text "IN4" (rect 2 55 24 66)(font "Courier New" (bold))(invisible))
-		(text "IN4" (rect 13 2 24 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN4" (rect 2 55 23 66)(font "Courier New" (bold))(invisible))
+		(text "IN4" (rect 13 2 24 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 16 0)(pt 16 18))
 	)
 	(port
@@ -139,8 +123,8 @@ applicable agreement for further details.
 	(port
 		(pt 32 0)
 		(input)
-		(text "IN1" (rect 2 8 24 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 29 2 40 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN1" (rect 2 8 23 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 40 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 32 0)(pt 32 11))
 	)
 	(port
@@ -171,12 +155,12 @@ applicable agreement for further details.
 (symbol
 	(rect 616 424 664 488)
 	(text "XNOR" (rect 39 1 48 30)(font "Arial" (font_size 6))(vertical))
-	(text "inst1" (rect 1 3 11 26)(font "Arial" )(vertical))
+	(text "inst1" (rect 1 3 11 25)(font "Arial" )(vertical))
 	(port
 		(pt 32 0)
 		(input)
-		(text "IN1" (rect 2 8 24 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 29 2 40 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN1" (rect 2 8 23 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 40 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 32 0)(pt 32 11))
 	)
 	(port
@@ -211,8 +195,8 @@ applicable agreement for further details.
 	(port
 		(pt 32 0)
 		(input)
-		(text "IN1" (rect 2 8 24 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 29 2 40 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN1" (rect 2 8 23 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 40 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 32 0)(pt 32 11))
 	)
 	(port
@@ -247,8 +231,8 @@ applicable agreement for further details.
 	(port
 		(pt 32 0)
 		(input)
-		(text "IN1" (rect 2 8 24 19)(font "Courier New" (bold))(invisible))
-		(text "IN1" (rect 29 2 40 24)(font "Courier New" (bold))(vertical)(invisible))
+		(text "IN1" (rect 2 8 23 19)(font "Courier New" (bold))(invisible))
+		(text "IN1" (rect 29 2 40 23)(font "Courier New" (bold))(vertical)(invisible))
 		(line (pt 32 0)(pt 32 11))
 	)
 	(port
@@ -277,11 +261,6 @@ applicable agreement for further details.
 	(rotate270)
 )
 (connector
-	(text "B[3]" (rect 544 397 554 415)(font "Arial" )(vertical))
-	(pt 560 312)
-	(pt 560 424)
-)
-(connector
 	(text "A[3]" (rect 560 397 570 415)(font "Arial" )(vertical))
 	(pt 576 248)
 	(pt 576 424)
@@ -307,18 +286,8 @@ applicable agreement for further details.
 	(pt 720 424)
 )
 (connector
-	(pt 488 312)
-	(pt 560 312)
-	(bus)
-)
-(connector
 	(pt 488 248)
 	(pt 576 248)
-	(bus)
-)
-(connector
-	(pt 560 312)
-	(pt 632 312)
 	(bus)
 )
 (connector
@@ -417,7 +386,21 @@ applicable agreement for further details.
 	(pt 792 248)
 	(pt 792 424)
 )
-(junction (pt 560 312))
+(connector
+	(text "B[3]" (rect 544 397 554 415)(font "Arial" )(vertical))
+	(pt 560 312)
+	(pt 560 424)
+)
+(connector
+	(pt 488 312)
+	(pt 560 312)
+	(bus)
+)
+(connector
+	(pt 560 312)
+	(pt 632 312)
+	(bus)
+)
 (junction (pt 576 248))
 (junction (pt 632 312))
 (junction (pt 648 248))
@@ -425,3 +408,4 @@ applicable agreement for further details.
 (junction (pt 720 248))
 (junction (pt 792 248))
 (junction (pt 776 312))
+(junction (pt 560 312))
