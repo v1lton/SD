@@ -88,9 +88,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1256 256 1432 272)
+	(rect 1216 152 1392 168)
 	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
-	(text "saida_4bits" (rect 90 0 145 10)(font "Arial" ))
+	(text "saida_overflow" (rect 90 0 161 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -104,9 +104,9 @@ applicable agreement for further details.
 )
 (pin
 	(output)
-	(rect 1216 152 1392 168)
+	(rect 1256 256 1432 272)
 	(text "OUTPUT" (rect 1 0 41 9)(font "Arial" (font_size 6)))
-	(text "saida_overflow" (rect 90 0 161 10)(font "Arial" ))
+	(text "saida_4bits[3..0]" (rect 90 0 167 10)(font "Arial" ))
 	(pt 0 8)
 	(drawing
 		(line (pt 0 8)(pt 52 8))
@@ -505,38 +505,8 @@ applicable agreement for further details.
 	(bus)
 )
 (connector
-	(pt 776 296)
-	(pt 776 280)
-	(bus)
-)
-(connector
-	(pt 776 488)
-	(pt 776 312)
-	(bus)
-)
-(connector
 	(pt 744 392)
 	(pt 744 176)
-)
-(connector
-	(pt 768 296)
-	(pt 776 296)
-	(bus)
-)
-(connector
-	(pt 776 280)
-	(pt 952 280)
-	(bus)
-)
-(connector
-	(pt 776 296)
-	(pt 952 296)
-	(bus)
-)
-(connector
-	(pt 776 312)
-	(pt 952 312)
-	(bus)
 )
 (connector
 	(pt 744 176)
@@ -545,11 +515,6 @@ applicable agreement for further details.
 (connector
 	(pt 768 192)
 	(pt 952 192)
-)
-(connector
-	(pt 920 328)
-	(pt 952 328)
-	(bus)
 )
 (connector
 	(pt 880 720)
@@ -597,11 +562,6 @@ applicable agreement for further details.
 	(pt 768 280)
 )
 (connector
-	(pt 592 264)
-	(pt 952 264)
-	(bus)
-)
-(connector
 	(pt 216 264)
 	(pt 448 264)
 	(bus)
@@ -629,11 +589,6 @@ applicable agreement for further details.
 (connector
 	(pt 216 392)
 	(pt 216 504)
-	(bus)
-)
-(connector
-	(pt 920 328)
-	(pt 920 608)
 	(bus)
 )
 (connector
@@ -760,16 +715,82 @@ applicable agreement for further details.
 	(pt 1176 456)
 )
 (connector
-	(pt 1256 264)
-	(pt 1224 264)
-)
-(connector
 	(pt 1176 160)
 	(pt 1216 160)
 )
 (connector
+	(pt 256 248)
+	(pt 256 336)
+	(bus)
+)
+(connector
+	(pt 256 336)
 	(pt 256 408)
-	(pt 256 1008)
+	(bus)
+)
+(connector
+	(pt 776 296)
+	(pt 776 280)
+	(bus)
+)
+(connector
+	(pt 776 488)
+	(pt 776 312)
+	(bus)
+)
+(connector
+	(pt 776 280)
+	(pt 952 280)
+	(bus)
+)
+(connector
+	(pt 1256 264)
+	(pt 1224 264)
+	(bus)
+)
+(connector
+	(pt 776 312)
+	(pt 952 312)
+	(bus)
+)
+(connector
+	(pt 920 328)
+	(pt 952 328)
+	(bus)
+)
+(connector
+	(pt 592 264)
+	(pt 952 264)
+	(bus)
+)
+(connector
+	(pt 920 608)
+	(pt 920 328)
+	(bus)
+)
+(connector
+	(pt 768 296)
+	(pt 776 296)
+	(bus)
+)
+(connector
+	(pt 776 296)
+	(pt 952 296)
+	(bus)
+)
+(connector
+	(pt 952 344)
+	(pt 792 344)
+	(bus)
+)
+(connector
+	(pt 792 560)
+	(pt 792 344)
+	(bus)
+)
+(connector
+	(pt 256 560)
+	(pt 792 560)
 	(bus)
 )
 (connector
@@ -781,17 +802,64 @@ applicable agreement for further details.
 	(pt 672 336)
 )
 (connector
+	(text "SELETOR[1]" (rect 266 328 327 338)(font "Arial" ))
 	(pt 672 336)
 	(pt 256 336)
 )
 (connector
-	(pt 256 248)
-	(pt 256 336)
+	(pt 256 408)
+	(pt 256 456)
 	(bus)
 )
 (connector
-	(pt 256 336)
-	(pt 256 408)
+	(pt 256 456)
+	(pt 256 560)
+	(bus)
+)
+(connector
+	(pt 256 560)
+	(pt 256 568)
+	(bus)
+)
+(connector
+	(pt 952 488)
+	(pt 816 488)
+)
+(connector
+	(text "S[0]" (rect 808 654 818 672)(font "Arial" )(vertical))
+	(pt 816 488)
+	(pt 816 680)
+)
+(connector
+	(text "S[1]" (rect 770 464 788 474)(font "Arial" ))
+	(pt 952 472)
+	(pt 760 472)
+)
+(connector
+	(pt 760 568)
+	(pt 760 472)
+)
+(connector
+	(pt 760 568)
+	(pt 256 568)
+)
+(connector
+	(text "S[2]" (rect 266 448 284 458)(font "Arial" ))
+	(pt 952 456)
+	(pt 256 456)
+)
+(connector
+	(pt 256 680)
+	(pt 816 680)
+)
+(connector
+	(pt 256 568)
+	(pt 256 680)
+	(bus)
+)
+(connector
+	(pt 256 680)
+	(pt 256 1008)
 	(bus)
 )
 (junction (pt 776 296))
@@ -810,3 +878,7 @@ applicable agreement for further details.
 (junction (pt 176 920))
 (junction (pt 216 936))
 (junction (pt 256 336))
+(junction (pt 256 560))
+(junction (pt 256 456))
+(junction (pt 256 568))
+(junction (pt 256 680))
