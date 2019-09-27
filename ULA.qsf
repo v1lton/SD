@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "MAX V"
 set_global_assignment -name DEVICE auto
-set_global_assignment -name TOP_LEVEL_ENTITY "somadorBit-a-Bit"
+set_global_assignment -name TOP_LEVEL_ENTITY BCDSomador
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 13.1
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "10:21:42  SEPTEMBER 18, 2019"
 set_global_assignment -name LAST_QUARTUS_VERSION 13.1
@@ -49,3 +49,5 @@ set_global_assignment -name BDF_FILE "somadorBit-a-Bit.bdf"
 set_global_assignment -name BDF_FILE Multiplexador_4bits_completo.bdf
 set_global_assignment -name BDF_FILE Multiplexador_overflow.bdf
 set_global_assignment -name BDF_FILE ULA.bdf
+set_global_assignment -name BDF_FILE BCDSomador.bdf
+set_global_assignment -name BDF_FILE bloquinho.bdf
