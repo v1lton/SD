@@ -46,3 +46,6 @@ set_global_assignment -name PROJECT_OUTPUT_DIRECTORY output_files
 set_global_assignment -name EDA_SIMULATION_TOOL "ModelSim-Altera (VHDL)"
 set_global_assignment -name EDA_OUTPUT_DATA_FORMAT VHDL -section_id eda_simulation
 set_global_assignment -name BDF_FILE "somadorBit-a-Bit.bdf"
+set_global_assignment -name BDF_FILE Multiplexador_4bits_completo.bdf
+set_global_assignment -name BDF_FILE Multiplexador_overflow.bdf
+set_global_assignment -name BDF_FILE ULA.bdf

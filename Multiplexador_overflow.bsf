@@ -26,8 +26,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "pin_name1" (rect 0 0 64 12)(font "Arial" (font_size 8)))
-		(text "pin_name1" (rect 21 27 85 39)(font "Arial" (font_size 8)))
+		(text "SELETOR" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "SELETOR" (rect 21 27 83 39)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port

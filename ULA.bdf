@@ -311,8 +311,8 @@ applicable agreement for further details.
 	(port
 		(pt 0 32)
 		(input)
-		(text "pin_name1" (rect 0 0 64 12)(font "Arial" (font_size 8)))
-		(text "pin_name1" (rect 21 27 85 39)(font "Arial" (font_size 8)))
+		(text "SELETOR" (rect 0 0 62 12)(font "Arial" (font_size 8)))
+		(text "SELETOR" (rect 21 27 83 39)(font "Arial" (font_size 8)))
 		(line (pt 0 32)(pt 16 32))
 	)
 	(port
@@ -768,13 +768,30 @@ applicable agreement for further details.
 	(pt 1216 160)
 )
 (connector
-	(pt 256 248)
 	(pt 256 408)
+	(pt 256 1008)
 	(bus)
 )
 (connector
+	(pt 672 160)
+	(pt 952 160)
+)
+(connector
+	(pt 672 160)
+	(pt 672 336)
+)
+(connector
+	(pt 672 336)
+	(pt 256 336)
+)
+(connector
+	(pt 256 248)
+	(pt 256 336)
+	(bus)
+)
+(connector
+	(pt 256 336)
 	(pt 256 408)
-	(pt 256 1008)
 	(bus)
 )
 (junction (pt 776 296))
@@ -792,3 +809,4 @@ applicable agreement for further details.
 (junction (pt 176 848))
 (junction (pt 176 920))
 (junction (pt 216 936))
+(junction (pt 256 336))
